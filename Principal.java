@@ -136,7 +136,7 @@ public class Principal{
 				
 				case "addTer":
 				boolean c = (v[3].equals("sim"))?true:false;
-				Tercerizado ter = new Tercerizado(v[1],Integer.parseInt(v[2]),c);
+				Terceirizado ter = new Terceirizado(v[1],Integer.parseInt(v[2]),c);
 				//add(ter);
 				if (add(ter)){
 					System.out.println("  done");
