@@ -1,8 +1,8 @@
-public class Tercerizado extends Funcionario{
+public class Terceirizado extends Funcionario{
 	private int horasTrab;
 	private boolean insalubre;
 	
-	public Tercerizado(String nome,int horas, boolean insalubre){
+	public Terceirizado(String nome,int horas, boolean insalubre){
 	super("Ter "+nome,0);
 	this.horasTrab = horas;
 	this.insalubre = insalubre;
